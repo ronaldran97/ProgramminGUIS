@@ -1,0 +1,33 @@
+.label {
+
+    /*property names in JavaFX all begin with -fx*/
+    -fx-font-size: 20pt;
+    -fx-text-fill: blue;
+    -fx-font-style: italic;
+
+}
+
+.button
+{
+    -fx-font-size: 50pt;
+}
+
+.root {
+    -fx-background-color: #89a203;
+    -fx-font-size: 50pt;
+}
+
+.button:hover
+{
+    -fx-background-color: linear-gradient(#654321, #8B0000);
+    -fx-border-color: "#718EA4";
+    -fx-highlight-text-fill: "#718EA4";
+}
+
+
+.text
+{
+    -fx-font-size: 100pt;
+}
+
+
